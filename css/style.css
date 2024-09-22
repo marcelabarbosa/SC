@@ -498,7 +498,106 @@ a.more {
   width: 100%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  border-collapse: collapse;
+  background-color: #f8f9fa;
+  margin-bottom: 20px;
+}
+
+table.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  color: #343a40;
+}
+
+.tabela-titulo th {
+  font-size: 18px;
+  color: #3b5d50;
+  padding: 15px;
   text-align: center;
+  border-bottom: 2px solid #ddd;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.tabela-titulo th:first-child {
+  border-top-left-radius: 8px;
+}
+
+.tabela-titulo th:last-child {
+  border-top-right-radius: 8px;
+}
+
+.cabecalho {
+  text-align: left !important;
+  padding-left: 10px;
+}
+
+.table tbody tr {
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f3f5;
+}
+
+.table-responsive td {
+  height: 80px;
+  padding: 15px 8px;
+  font-size: 16px;
+  text-align: center;
+  color: #3b5d50 !important;
+  vertical-align: middle;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.nome-candidato {
+  text-align: left !important;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.img-result {
+  height: 90px;
+  width: 90px;
+  display: block;
+  margin: 0 auto;
+}
+
+.table-responsive td:last-child {
+  font-weight: bold;
+  color: #495057;
+}
+
+.table img {
+  max-width: 90px;
+  border-radius: 50%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tbody tr,
+tfoot tr {
+  border: none;
+}
+
+tfoot {
+  border-top: none !important;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .table-responsive td {
+    font-size: 14px;
+    padding: 10px 5px;
+  }
+
+  .tabela-titulo th {
+    font-size: 16px;
+  }
 }
 
 .why-choose-section {
