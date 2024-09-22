@@ -1,9 +1,3 @@
-/*
-* Template Name: UntreeStore
-* Template Author: Untree.co
-* Author URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
 body {
@@ -256,6 +250,22 @@ a.more {
   }
 }
 
+.mb-5 {
+  margin-bottom: 6rem !important;
+}
+
+.btn.btn-primary.fw-bolder.fs-8 {
+  position: absolute;
+  width: 68px;
+  height: 40px;
+  display: inline-block;
+  background: #3b5d50;
+  bottom: 0px;
+  left: 40%;
+  margin-bottom: -17.5px;
+  color: #f4d62c;
+}
+
 .btn {
   font-weight: 600;
   padding: 12px 30px;
@@ -325,12 +335,12 @@ a.more {
   position: relative;
   padding-bottom: 50px;
   cursor: pointer;
+  margin-top: 50px;
 }
 
 .candidato-section .candidato-item .candidato-thumbnail {
   height: 250px;
   width: 250px;
-
   object-fit: cover;
   margin-bottom: 30px;
   position: relative;
