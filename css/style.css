@@ -341,7 +341,7 @@ a.more {
 .candidato-section .candidato-item .candidato-thumbnail {
   height: 250px;
   width: 250px;
-
+  border-radius: 10%;
   object-fit: cover;
   margin-bottom: 30px;
   position: relative;
